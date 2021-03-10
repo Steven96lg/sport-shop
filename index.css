@@ -1,0 +1,196 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #EEEBEB;
+}
+
+#header{
+    width: 100%;
+    height: 65px;
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: fixed;
+    top: 0px;
+}
+
+#header .logo{
+    color: white;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    text-shadow: 0px 2px 4px black;
+}
+
+#header input[type='text']{
+    width: 400px;
+    height: 30px;
+    border-radius: 40px;
+    border: none;
+    outline: none;
+    background: rgba(255, 255, 255, .5);
+    padding-left: 30px;
+    color: white;
+    font-size: 20px;
+}
+
+#header .menu nav ul{
+    display: flex;
+    list-style: none;
+}
+
+#header .menu nav ul li{
+    margin-left: 40px;
+}
+
+#header .menu nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.imagen{
+    width: 100%;
+    height: 600px;
+    background-image: url(https://images.pexels.com/photos/33703/relay-race-competition-stadium-sport.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-size: 100%;
+    margin-bottom: 70px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.imagen h3{
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px 100px;
+    background-color: rgba(255, 255, 255, .6);
+    border-radius: 20px;
+    color: white;
+    text-shadow: 0px 3px 6px black;
+    margin-top: 100px;
+}
+
+h3{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    padding-left: 30px;
+    color: gray;
+    margin-bottom: 1em;
+}
+
+.futbol, .ciclismo, .calzado{
+    width: 90%;
+    height: auto;
+    padding: 10px;
+    margin: 40px auto;
+}
+
+.calzado{
+    margin-bottom: 90px;
+}
+
+.futbol--items{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.futbol--items .item{
+    width: 250px;
+    height: auto;
+    box-shadow: 0px 1px 3px gray;
+    background-color: white;
+}
+
+.futbol--items .item p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 18px;
+    text-align: left;
+}
+
+.ciclismo--items{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.ciclismo--items .item{
+    width: 250px;
+    height: auto;
+    box-shadow: 0px 1px 3px gray;
+    background-color: white;
+}
+
+.ciclismo--items .item p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 18px;
+    text-align: left;
+}
+
+.calzado--items{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.calzado--items .item{
+    width: 250px;
+    height: auto;
+    box-shadow: 0px 1px 3px gray;
+    background-color: white;
+    padding-top: 30px;
+}
+
+.calzado--items .item p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 18px;
+    text-align: left;
+}
+
+img{
+    max-width: 100%;
+    padding-bottom: 20px;
+}
+
+.footer{
+    width: 100%;
+    height: 90px;
+    background-color: white;
+    box-shadow: -1px 0px 5px gray;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    color: gray;
+}
